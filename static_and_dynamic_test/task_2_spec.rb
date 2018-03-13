@@ -20,7 +20,7 @@ class TestTask < MiniTest::Test
     assert_equal(true, @game.checkforAce(@game))
   end
 
-  def test_check_for_ace__true
+  def test_check_for_ace__false
     assert_equal(false, @game.checkforAce(@cardA))
   end
 
